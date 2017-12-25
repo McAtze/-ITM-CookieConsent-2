@@ -15,18 +15,16 @@ First uninstall the old version and then install the new one.
 
 ### Screenshots
 
-![Options](https://maxcdn.it-maku.com/git/cc/options.png)
-![Style Properties](https://maxcdn.it-maku.com/git/cc/style_properties.png)
-![Top Classic](https://maxcdn.it-maku.com/git/cc/top_classic.png)
-![Top (Pushdown) Classic](https://maxcdn.it-maku.com/git/cc/top_pushdown_classic.png)
-![Bottom Classic](https://maxcdn.it-maku.com/git/cc/bottom_classic.png)
-![Bottom Edgeless](https://maxcdn.it-maku.com/git/cc/bottom_edgeless.png)
-![Bottom Wire](https://maxcdn.it-maku.com/git/cc/bottom_wire.png)
-![Floating Left Classic](https://maxcdn.it-maku.com/git/cc/floating_left_classic.png)
-![Floating Right Classic](https://maxcdn.it-maku.com/git/cc/floating_right_classic.png)
-![Floating Right Block](https://maxcdn.it-maku.com/git/cc/floating_right_block.png)
-![Floating Right Edgeless](https://maxcdn.it-maku.com/git/cc/floating_right_edgeless.png)
-![Floating Right Wire](https://maxcdn.it-maku.com/git/cc/floating_right_wire.png)
+![Options](https://maxcdn.it-maku.com/git/cc2/Options.png)
+![Style Properties](https://maxcdn.it-maku.com/git/cc2/Style-Properties.png)
+![Banner Classic](https://maxcdn.it-maku.com/git/cc2/Banner-Classic.png)
+![Banner Edgeless](https://maxcdn.it-maku.com/git/cc2/Banner-Edgeless.png)
+![Banner Wire](https://maxcdn.it-maku.com/git/cc2/Banner-Wire.png)
+![Banner Bottom](https://maxcdn.it-maku.com/git/cc2/Banner-bottom.png)
+![Banner Top](https://maxcdn.it-maku.com/git/cc2/Banner-top.png)
+![Banner Top Pushdown](https://maxcdn.it-maku.com/git/cc2/Banner-top-pushdown.png)
+![Banner Floating Right](https://maxcdn.it-maku.com/git/cc2/Banner-floating-right.png)
+![Banner Floating Left](https://maxcdn.it-maku.com/git/cc2/Banner-floating-left.png)
 
 ### Documentation 
 
