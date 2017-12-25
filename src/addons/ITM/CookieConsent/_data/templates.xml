@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="public" title="itm_cc_helper_js" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+	"palette": {
+    	"popup": {
+      		"background": "{{ property('itmCCpaletteBack') }}",
+			"text": "{{ property('itmCCpaletteText') }}"
+    	},
+    	"button": {
+      		<xf:if is="$xf.options.itm_cc_layout == 'wire'">
+				"background": "transparent",
+      			"text": "{{ property('itmCCbuttonText') }}",
+      			"border": "{{ property('itmCCbuttonBorder') }}"
+			<xf:else />
+				"background": "{{ property('itmCCbuttonBack') }}",
+      			"text": "{{ property('itmCCbuttonText') }}",
+      			"border": "{{ property('itmCCbuttonBorder') }}"
+			</xf:if>
+    	}
+  	},
+  	<xf:if is="$xf.options.itm_cc_layout != 'block' && $xf.options.itm_cc_layout != 'wire'">
+		"theme": "{$xf.options.itm_cc_layout}",
+	</xf:if>
+	<xf:if is="$xf.options.itm_cc_position != 'bottom' && $xf.options.itm_cc_position != 'top2'">
+		"position": "{$xf.options.itm_cc_position}",
+	<xf:elseif is="$xf.options.itm_cc_position == 'top2'" />
+		"position": "top",
+  		"static": true,
+	</xf:if>
+  	"content": {
+    	"message": <xf:if is="$xf.options.itm_cc_customText.enabled">"{$xf.options.itm_cc_customText}"<xf:else />"{{ phrase('this_site_uses_cookies_notice')}}"</xf:if>,
+    	"dismiss": <xf:if is="$xf.options.itm_cc_dismissButtonText.enabled">"{$xf.options.itm_cc_dismissButtonText}"<xf:else />"{{ phrase('itm_cc_dismiss_button')}}"</xf:if>,
+    	"link": <xf:if is="$xf.options.itm_cc_policyLinkText.enabled">"{$xf.options.itm_cc_policyLinkText}"<xf:else />"{{ phrase('itm_cc_policy_linktext')}}"</xf:if>,
+    	"href": "{$xf.options.itm_cc_policyLinkUrl}"
+  	}
+})});
+</script>]]></template>
+</templates>

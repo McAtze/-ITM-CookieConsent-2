@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <option option_id="itm_cc_active" edit_format="onoff" data_type="string">
+    <default_value/>
+    <relation group_id="itmCookieConsent" display_order="10"/>
+  </option>
+  <option option_id="itm_cc_customText" edit_format="onofftextbox" data_type="array">
+    <default_value>{"enabled":"0","customText":""}</default_value>
+    <edit_format_params>onoff=enabled
+value=customText
+type=textarea
+rows=3</edit_format_params>
+    <sub_options>enabled
+customText</sub_options>
+    <relation group_id="itmCookieConsent" display_order="230"/>
+  </option>
+  <option option_id="itm_cc_dismissButtonText" edit_format="onofftextbox" data_type="array">
+    <default_value>{"enabled":"0","dismissButton":""}</default_value>
+    <edit_format_params>onoff=enabled
+value=dismissButton
+type=textbox</edit_format_params>
+    <sub_options>enabled
+dismissButton</sub_options>
+    <relation group_id="itmCookieConsent" display_order="220"/>
+  </option>
+  <option option_id="itm_cc_layout" edit_format="select" data_type="string">
+    <default_value>block</default_value>
+    <edit_format_params>block={{ phrase('itm_cc_layout_block') }}
+classic={{ phrase('itm_cc_layout_classic') }}
+edgeless={{ phrase('itm_cc_layout_edgeless') }}
+wire={{ phrase('itm_cc_layout_wire') }}</edit_format_params>
+    <relation group_id="itmCookieConsent" display_order="110"/>
+  </option>
+  <option option_id="itm_cc_policyLinkText" edit_format="onofftextbox" data_type="array">
+    <default_value>{"enabled":"0","policyText":""}</default_value>
+    <edit_format_params>onoff=enabled
+value=policyText
+type=textbox</edit_format_params>
+    <sub_options>enabled
+policyText</sub_options>
+    <relation group_id="itmCookieConsent" display_order="210"/>
+  </option>
+  <option option_id="itm_cc_policyLinkUrl" edit_format="textbox" data_type="string">
+    <default_value/>
+    <relation group_id="itmCookieConsent" display_order="200"/>
+  </option>
+  <option option_id="itm_cc_position" edit_format="select" data_type="string">
+    <default_value>bottom</default_value>
+    <edit_format_params>bottom={{ phrase('itm_cc_pos_bottom') }}
+top={{ phrase('itm_cc_pos_top') }}
+top2={{ phrase('itm_cc_pos_topPushdown') }}
+bottom-left={{ phrase('itm_cc_pos_floatLeft') }}
+bottom-right={{ phrase('itm_cc_pos_floatRight') }}</edit_format_params>
+    <relation group_id="itmCookieConsent" display_order="100"/>
+  </option>
+</options>

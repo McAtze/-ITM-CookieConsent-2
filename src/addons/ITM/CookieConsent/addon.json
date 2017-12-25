@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "",
+    "title": "[ITM] Cookie Consent by Insites",
+    "description": "Pretend the EU-Cookie law.",
+    "version_id": 2000012,
+    "version_string": "2.0.0 Alpha 2",
+    "dev": "McAtze",
+    "dev_url": "https://www.it-maku.com",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": [],
+    "icon": "fa-shield"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style_properties>
+  <style_property property_name="itmCCbuttonBack" group_name="itmCCproperty" title="Button background color" property_type="value" value_type="color" value_group="button" display_order="200">
+    <value>"#f1d600"</value>
+  </style_property>
+  <style_property property_name="itmCCbuttonBorder" group_name="itmCCproperty" title="Button border color" property_type="value" value_type="color" value_group="button" display_order="220">
+    <value>"#f1d600"</value>
+  </style_property>
+  <style_property property_name="itmCCbuttonText" group_name="itmCCproperty" title="Button text color" property_type="value" value_type="color" value_group="button" display_order="210">
+    <value>"#fff"</value>
+  </style_property>
+  <style_property property_name="itmCCpaletteBack" group_name="itmCCproperty" title="Palette background color" property_type="value" value_type="color" value_group="palette" display_order="100">
+    <value>"#000"</value>
+  </style_property>
+  <style_property property_name="itmCCpaletteText" group_name="itmCCproperty" title="Palette text color" property_type="value" value_type="color" value_group="palette" display_order="110">
+    <value>""</value>
+  </style_property>
+</style_properties>

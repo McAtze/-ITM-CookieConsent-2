@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="itm_cc_dismiss_button" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Got it!]]></phrase>
+  <phrase title="itm_cc_layout_block" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Block]]></phrase>
+  <phrase title="itm_cc_layout_classic" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Classic]]></phrase>
+  <phrase title="itm_cc_layout_edgeless" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Edgeless]]></phrase>
+  <phrase title="itm_cc_layout_wire" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Wire]]></phrase>
+  <phrase title="itm_cc_policy_linktext" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Learn more..]]></phrase>
+  <phrase title="itm_cc_pos_bottom" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Banner bottom]]></phrase>
+  <phrase title="itm_cc_pos_floatLeft" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Banner floating left]]></phrase>
+  <phrase title="itm_cc_pos_floatRight" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Banner floating right]]></phrase>
+  <phrase title="itm_cc_pos_top" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Banner top]]></phrase>
+  <phrase title="itm_cc_pos_topPushdown" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Banner top (Pushdown)]]></phrase>
+  <phrase title="option.itm_cc_active" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Activate Cookie Consent]]></phrase>
+  <phrase title="option.itm_cc_customText" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Custom text]]></phrase>
+  <phrase title="option.itm_cc_dismissButtonText" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Dismiss button text]]></phrase>
+  <phrase title="option.itm_cc_layout" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[CookieConsent Layout]]></phrase>
+  <phrase title="option.itm_cc_policyLinkText" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Policy link text]]></phrase>
+  <phrase title="option.itm_cc_policyLinkUrl" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Policy link url]]></phrase>
+  <phrase title="option.itm_cc_position" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[CookieConsent Position]]></phrase>
+  <phrase title="option_explain.itm_cc_active" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Enable to activate the cookie consent. You should disable the Xenforo default cookie options.]]></phrase>
+  <phrase title="option_explain.itm_cc_customText" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[If enabled, you can use your own message for the cookie consent banner. If not, the Xenforo default cookie phrase will be used. It is recommend for multi language forums.]]></phrase>
+  <phrase title="option_explain.itm_cc_dismissButtonText" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[If enabled, you can use your own button text for the dismiss button. If not, the Xenforo default phrase will be used. It is recommend for multi language forums. You can change the phrase <b>itm_cc_dismiss_button</b>.]]></phrase>
+  <phrase title="option_explain.itm_cc_layout" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Choose the layout of your cookie consent banner. You can check out some <a href="https://cookieconsent.insites.com/demos/" target="_target">Demos</a>.
+<br /><br />
+You can find more styling options within the style properties.]]></phrase>
+  <phrase title="option_explain.itm_cc_policyLinkText" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[If enabled, you can use your own policy text for the privacy link. If not, the Xenforo default phrase will be used. It is recommend for multi language forums. You can change the phrase <b>itm_cc_policy_linktext</b>.]]></phrase>
+  <phrase title="option_explain.itm_cc_policyLinkUrl" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Enter the link to your own policy.]]></phrase>
+  <phrase title="option_explain.itm_cc_position" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Choose the right position for your cookie consent banner. You can check out some <a href="https://cookieconsent.insites.com/demos/" target="_target">Demos</a>.]]></phrase>
+  <phrase title="option_group.itmCookieConsent" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[[ITM] Cookie Consent by Insites]]></phrase>
+  <phrase title="option_group_description.itmCookieConsent" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Options that control the [ITM] Cookie Consent add-on.]]></phrase>
+  <phrase title="style_prop.itmCCbuttonBack" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Button background color]]></phrase>
+  <phrase title="style_prop.itmCCbuttonBorder" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Button border color]]></phrase>
+  <phrase title="style_prop.itmCCbuttonText" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Button text color]]></phrase>
+  <phrase title="style_prop.itmCCpaletteBack" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Palette background color]]></phrase>
+  <phrase title="style_prop.itmCCpaletteText" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Palette text color]]></phrase>
+  <phrase title="style_prop_desc.itmCCbuttonBack" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.itmCCbuttonBorder" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.itmCCbuttonText" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.itmCCpaletteBack" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.itmCCpaletteText" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[]]></phrase>
+  <phrase title="style_prop_group.itmCCproperty" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[[ITM] Cookie Consent by Insites]]></phrase>
+  <phrase title="style_prop_group_desc.itmCCproperty" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[General style settings for the cookie consent add-on.]]></phrase>
+</phrases>
