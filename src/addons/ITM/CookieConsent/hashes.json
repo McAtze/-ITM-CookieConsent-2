@@ -1,10 +1,10 @@
 {
-    "src/addons/ITM/CookieConsent/addon.json": "bb12075f099e4ff5e27a11147528a6b498cb831e1aa0ae2d96422a7e4d1e4620",
+    "src/addons/ITM/CookieConsent/addon.json": "ebcabb9704ab59406f8208e2d186a73d2375ab454802375690009b3e47ecdc4e",
     "src/addons/ITM/CookieConsent/_data/options.xml": "7cfae90be85e0758c2140a1e89dc74d65b73c351507dc5e959dc5cffc3dc4582",
     "src/addons/ITM/CookieConsent/_data/option_groups.xml": "a00aba70ea1f5bc723ef8c09c14e4168e37476c477f41c06945203cad7482cfb",
-    "src/addons/ITM/CookieConsent/_data/phrases.xml": "e3b39032c7873ed92382461ff807de9749e287a56d57c5919030a65b818d2f3d",
+    "src/addons/ITM/CookieConsent/_data/phrases.xml": "fd795fd0bf5b70bdc8960b3d915ab8c640646ecfad27e9e4683aa87ea1a886ea",
     "src/addons/ITM/CookieConsent/_data/style_properties.xml": "31e406483a5cfbf32ac0e9fc2740df9afbc43f32f5154dc2bb0d20d3bdfdca43",
     "src/addons/ITM/CookieConsent/_data/style_property_groups.xml": "6cebb8ad6877b9caa16bad68383b75585062fd8cf590383a417f930c15fd1fed",
-    "src/addons/ITM/CookieConsent/_data/templates.xml": "1411606e886b9642526e0a85f4b8e6f373fde067e2db464417d7ca01966d9ccb",
+    "src/addons/ITM/CookieConsent/_data/templates.xml": "7811f660e3788251fc739aceccbe9af4b2a0f1aa29556f291b069b7980bd63f9",
     "src/addons/ITM/CookieConsent/_data/template_modifications.xml": "941520e6fc943a028d92b0488d9ed293e941a52c704a159222fca4ab215e261c"
 }

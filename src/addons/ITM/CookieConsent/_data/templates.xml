@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <templates>
-  <template type="public" title="itm_cc_helper_js" version_id="2000011" version_string="2.0.0 Alpha 1"><![CDATA[<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <template type="public" title="itm_cc_helper_js" version_id="2000012" version_string="2.0.0 Alpha 2"><![CDATA[<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 
 <script>
@@ -32,11 +32,12 @@ window.cookieconsent.initialise({
 		"position": "top",
   		"static": true,
 	</xf:if>
+	<xf:if is="$xf.options.itm_cc_policyLinkUrl == ''">"showLink": false,</xf:if>
   	"content": {
-    	"message": <xf:if is="$xf.options.itm_cc_customText.enabled">"{$xf.options.itm_cc_customText}"<xf:else />"{{ phrase('this_site_uses_cookies_notice')}}"</xf:if>,
-    	"dismiss": <xf:if is="$xf.options.itm_cc_dismissButtonText.enabled">"{$xf.options.itm_cc_dismissButtonText}"<xf:else />"{{ phrase('itm_cc_dismiss_button')}}"</xf:if>,
-    	"link": <xf:if is="$xf.options.itm_cc_policyLinkText.enabled">"{$xf.options.itm_cc_policyLinkText}"<xf:else />"{{ phrase('itm_cc_policy_linktext')}}"</xf:if>,
-    	"href": "{$xf.options.itm_cc_policyLinkUrl}"
+    	"message": <xf:if is="$xf.options.itm_cc_customText.enabled && $xf.options.itm_cc_customText.customText != ''">"{$xf.options.itm_cc_customText.customText}"<xf:else />"{{ phrase('this_site_uses_cookies_notice')}}"</xf:if>,
+    	"dismiss": <xf:if is="$xf.options.itm_cc_dismissButtonText.enabled && $xf.options.itm_cc_dismissButtonText.dismissButton != ''">"{$xf.options.itm_cc_dismissButtonText.dismissButton}"<xf:else />"{{ phrase('itm_cc_dismiss_button')}}"</xf:if>,
+    	"link": <xf:if is="$xf.options.itm_cc_policyLinkText.enabled && $xf.options.itm_cc_policyLinkText.policyText != ''">"{$xf.options.itm_cc_policyLinkText.policyText}"<xf:else />"{{ phrase('itm_cc_policy_linktext')}}"</xf:if>,
+		<xf:if is="$xf.options.itm_cc_policyLinkUrl != ''">"href": "{$xf.options.itm_cc_policyLinkUrl}"</xf:if>
   	}
 })});
 </script>]]></template>
