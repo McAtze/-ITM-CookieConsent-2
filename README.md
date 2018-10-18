@@ -19,16 +19,16 @@ First uninstall the old version and then install the new one.
 
 ### Screenshots
 
-![Options](https://maxcdn.it-maku.com/git/cc2/Options.png)
-![Style Properties](https://maxcdn.it-maku.com/git/cc2/Style-Properties.png)
-![Banner Classic](https://maxcdn.it-maku.com/git/cc2/Banner-Classic.png)
-![Banner Edgeless](https://maxcdn.it-maku.com/git/cc2/Banner-Edgeless.png)
-![Banner Wire](https://maxcdn.it-maku.com/git/cc2/Banner-Wire.png)
-![Banner Bottom](https://maxcdn.it-maku.com/git/cc2/Banner-bottom.png)
-![Banner Top](https://maxcdn.it-maku.com/git/cc2/Banner-top.png)
-![Banner Top Pushdown](https://maxcdn.it-maku.com/git/cc2/Banner-top-pushdown.png)
-![Banner Floating Right](https://maxcdn.it-maku.com/git/cc2/Banner-floating-right.png)
-![Banner Floating Left](https://maxcdn.it-maku.com/git/cc2/Banner-floating-left.png)
+![Options](https://github.com/McAtze/-ITM-CookieConsent-2/blob/master/Screenshots/Options.png)
+![Style Properties](https://github.com/McAtze/-ITM-CookieConsent-2/blob/master/Screenshots/Style-Properties.png)
+![Banner Classic](https://github.com/McAtze/-ITM-CookieConsent-2/blob/master/Screenshots/Banner-Classic.png)
+![Banner Edgeless](https://github.com/McAtze/-ITM-CookieConsent-2/blob/master/Screenshots/Banner-Edgeless.png)
+![Banner Wire](https://github.com/McAtze/-ITM-CookieConsent-2/blob/master/Screenshots/Banner-Wire.png)
+![Banner Bottom](https://github.com/McAtze/-ITM-CookieConsent-2/blob/master/Screenshots/Banner-bottom.png)
+![Banner Top](https://github.com/McAtze/-ITM-CookieConsent-2/blob/master/Screenshots/Banner-top.png)
+![Banner Top Pushdown](https://github.com/McAtze/-ITM-CookieConsent-2/blob/master/Screenshots/Banner-top-pushdown.png)
+![Banner Floating Right](https://github.com/McAtze/-ITM-CookieConsent-2/blob/master/Screenshots/Banner-floating-right.png)
+![Banner Floating Left](https://github.com/McAtze/-ITM-CookieConsent-2/blob/master/Screenshots/Banner-floating-left.png)
 
 ### Documentation 
 
