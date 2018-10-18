@@ -18,6 +18,7 @@
   <phrase title="option.itm_cc_policyLinkText" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Policy link text]]></phrase>
   <phrase title="option.itm_cc_policyLinkUrl" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Policy link url]]></phrase>
   <phrase title="option.itm_cc_position" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[CookieConsent Position]]></phrase>
+  <phrase title="option.itm_cc_sources" version_id="2000100" version_string="2.0.1"><![CDATA[JS/CSS source]]></phrase>
   <phrase title="option_explain.itm_cc_active" version_id="2000100" version_string="2.0.1"><![CDATA[Enable to activate the cookie consent. You should disable the Xenforo default cookie options.
 <br /><br />
 You may also choose to support the author directly with a voluntary donation in USD or in EUR.
@@ -32,6 +33,7 @@ You can find more styling options within the style properties.]]></phrase>
   <phrase title="option_explain.itm_cc_policyLinkText" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[If enabled, you can use your own policy text for the privacy link. If not, the Xenforo default phrase will be used. It is recommend for multi language forums. You can change the phrase <b>itm_cc_policy_linktext</b>.]]></phrase>
   <phrase title="option_explain.itm_cc_policyLinkUrl" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Enter the link to your own policy.]]></phrase>
   <phrase title="option_explain.itm_cc_position" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Choose the right position for your cookie consent banner. You can check out some <a href="https://cookieconsent.insites.com/demos/" target="_target">Demos</a>.]]></phrase>
+  <phrase title="option_explain.itm_cc_sources" version_id="2000100" version_string="2.0.1"><![CDATA[Controls the source of the CookieConsent-2 library. You may host this yourself (Local) or use the recommended CDN source. All CDN options support HTTPS/SSL.]]></phrase>
   <phrase title="option_group.itmCookieConsent" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[[ITM] Cookie Consent by Insites]]></phrase>
   <phrase title="option_group_description.itmCookieConsent" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Options that control the [ITM] Cookie Consent add-on.]]></phrase>
   <phrase title="style_prop.itmCCbuttonBack" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Button background color]]></phrase>

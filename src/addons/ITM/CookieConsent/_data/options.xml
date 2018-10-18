@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <options>
   <option option_id="itm_cc_active" edit_format="onoff" data_type="string">
-    <default_value/>
+    <default_value></default_value>
     <relation group_id="itmCookieConsent" display_order="10"/>
   </option>
   <option option_id="itm_cc_customText" edit_format="onofftextbox" data_type="array">
@@ -41,7 +41,7 @@ policyText</sub_options>
     <relation group_id="itmCookieConsent" display_order="210"/>
   </option>
   <option option_id="itm_cc_policyLinkUrl" edit_format="textbox" data_type="string">
-    <default_value/>
+    <default_value></default_value>
     <relation group_id="itmCookieConsent" display_order="200"/>
   </option>
   <option option_id="itm_cc_position" edit_format="select" data_type="string">
@@ -52,5 +52,11 @@ top2={{ phrase('itm_cc_pos_topPushdown') }}
 bottom-left={{ phrase('itm_cc_pos_floatLeft') }}
 bottom-right={{ phrase('itm_cc_pos_floatRight') }}</edit_format_params>
     <relation group_id="itmCookieConsent" display_order="100"/>
+  </option>
+  <option option_id="itm_cc_sources" edit_format="radio" data_type="string">
+    <default_value>local</default_value>
+    <edit_format_params>local={{ phrase('locally_hosted') }}
+cloudflare=Cloudflare CDN</edit_format_params>
+    <relation group_id="itmCookieConsent" display_order="90"/>
   </option>
 </options>
